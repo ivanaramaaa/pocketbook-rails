@@ -9,7 +9,7 @@ class UsersController < ApplicationController
 			session[:user_id] = @user.id
 		  redirect_to pages_about_path
 		else 
-			redirect_to new_user_path
+		  redirect_to new_user_path
 		end
 	end
 
